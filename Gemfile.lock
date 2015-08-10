@@ -1,4 +1,12 @@
 GIT
+  remote: git://github.com/ncri/globalize.git
+  revision: 05ea52429ebd4f8c4cbd2595ab5269ad35d6830a
+  specs:
+    globalize (4.0.2)
+      activemodel (>= 4.2.0.beta4, < 4.3)
+      activerecord (>= 4.2.0.beta4, < 4.3)
+
+GIT
   remote: git://github.com/timwaters/audited.git
   revision: 5d945c1b3fa5bf99a2a9df512d1a58a90c67e5cd
   branch: rails4
@@ -50,8 +58,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    acts-as-taggable-on (3.3.0)
-      activerecord (>= 3, < 5)
+    acts-as-taggable-on (3.5.0)
+      activerecord (>= 3.2, < 5)
     acts_as_commentable (4.0.2)
     arel (6.0.0)
     bcrypt (3.1.10)
@@ -270,7 +278,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-postgis-adapter (= 3.0.0.beta2)
-  acts-as-taggable-on (~> 3.3.0)
+  acts-as-taggable-on (~> 3.4)
   acts_as_commentable
   audited-activerecord!
   capistrano (~> 3.2.1)
@@ -282,6 +290,7 @@ DEPENDENCIES
   gdal
   geoplanet
   georuby
+  globalize!
   jbuilder (~> 2.0)
   jquery-rails
   jquery-ui-rails (= 3.0.1)
@@ -302,3 +311,6 @@ DEPENDENCIES
   web-console (~> 2.0)
   will_paginate (~> 3.0)
   yql (= 0.0.2)
+
+BUNDLED WITH
+   1.10.6
